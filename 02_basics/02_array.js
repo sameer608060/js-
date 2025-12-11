@@ -7,6 +7,11 @@ const dc_heroes=["Superman","Batman","Flash"]
 // console.log(allheroes)
 // iska ek aur tarika v hai 
 const allheroes=[...marvel_heroes, ...dc_heroes]
+//it means pushback push in the same array but concat merge two arrays and return a new array
 console.log(allheroes);
-
-
+const another_array= [1,2,3,[4,5,6],[7,[8,9]]]
+const real_another_array=another_array.flat(0)
+console.log(real_another_array)
+//array has function like array.isarray(x)it return true or flase.      
+//same array.from("sameer") it would return an array format of sameer. 
+//similarly array.of(x,y,z)return array containing xyz where xyz could be anything but should be declaredf
