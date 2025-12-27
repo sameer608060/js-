@@ -1,0 +1,1 @@
+//Tmko loops wagairah ata hai sb c++ jaisa hi hota hai even syntax v same hota hai 
